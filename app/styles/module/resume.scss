@@ -1,0 +1,52 @@
+.resume {
+  padding-top: 50px;
+}
+
+.resume-name {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+
+.experience {
+  padding-top: 20px;
+  &:first-child {
+    padding-top: 0px;
+  }
+
+  .experience-header {
+    font-weight: bold;
+
+    :hover, :focus {
+      text-decoration: underline;
+    }
+  }
+
+
+
+  ul > li {
+    list-style-type: square;
+  }
+}
+
+.project {
+  padding-top: 12px;
+  &:first-child {
+    padding-top: 0px;
+  }
+
+  .project-header {
+    :hover, :focus {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    margin-bottom: ($line-height-computed / 4);
+  }
+}
+
+
+#collapseEducations {
+  margin-bottom: 50px;
+}
